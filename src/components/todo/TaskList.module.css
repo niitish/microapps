@@ -1,0 +1,55 @@
+.list {
+  background-color: gray;
+  border-radius: 1rem;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.list p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 1fr 13fr 1fr;
+  gap: 0.25rem;
+  padding: 1rem 0.3rem;
+  margin: 0.5rem 0;
+  color: black;
+  border-radius: 1rem;
+  background-color: gainsboro;
+}
+
+.list button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: none;
+  transition: background 0.25s;
+}
+
+.list button:hover {
+  background: white;
+}
+
+.list button img {
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: contain;
+}
+
+.list h2 {
+  margin: 0;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.list h2::-webkit-scrollbar {
+  display: none;
+}

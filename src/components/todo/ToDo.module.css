@@ -1,0 +1,14 @@
+.todo {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 600px;
+}
+.todo > h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .todo {
+    width: 100%;
+  }
+}
