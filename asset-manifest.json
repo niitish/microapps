@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/microapps/static/css/main.28a7db78.css",
-    "main.js": "/microapps/static/js/main.f7ab75a5.js",
+    "main.js": "/microapps/static/js/main.f5c63498.js",
     "static/css/113.bdececbf.chunk.css": "/microapps/static/css/113.bdececbf.chunk.css",
     "static/js/113.19dc8d24.chunk.js": "/microapps/static/js/113.19dc8d24.chunk.js",
     "static/css/938.5b218539.chunk.css": "/microapps/static/css/938.5b218539.chunk.css",
-    "static/js/938.16215b3e.chunk.js": "/microapps/static/js/938.16215b3e.chunk.js",
+    "static/js/938.89e10c6b.chunk.js": "/microapps/static/js/938.89e10c6b.chunk.js",
     "static/media/checked.png": "/microapps/static/media/checked.1512888c84e9df01470d.png",
     "static/media/clock.png": "/microapps/static/media/clock.17bdc628628399bade7c.png",
     "static/media/uncheck.png": "/microapps/static/media/uncheck.0d15f726c9ffc96f69c2.png",
@@ -14,14 +14,14 @@
     "static/media/todo.png": "/microapps/static/media/todo.63bf270ce06c27f992c1.png",
     "index.html": "/microapps/index.html",
     "main.28a7db78.css.map": "/microapps/static/css/main.28a7db78.css.map",
-    "main.f7ab75a5.js.map": "/microapps/static/js/main.f7ab75a5.js.map",
+    "main.f5c63498.js.map": "/microapps/static/js/main.f5c63498.js.map",
     "113.bdececbf.chunk.css.map": "/microapps/static/css/113.bdececbf.chunk.css.map",
     "113.19dc8d24.chunk.js.map": "/microapps/static/js/113.19dc8d24.chunk.js.map",
     "938.5b218539.chunk.css.map": "/microapps/static/css/938.5b218539.chunk.css.map",
-    "938.16215b3e.chunk.js.map": "/microapps/static/js/938.16215b3e.chunk.js.map"
+    "938.89e10c6b.chunk.js.map": "/microapps/static/js/938.89e10c6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28a7db78.css",
-    "static/js/main.f7ab75a5.js"
+    "static/js/main.f5c63498.js"
   ]
 }
