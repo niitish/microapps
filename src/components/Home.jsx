@@ -7,13 +7,13 @@ const Home = () => {
   return (
     <ul className={classes.items}>
       <li>
-        <Link to="/clock">
+        <Link to="/microapps/clock">
           <img src={ClockImg} alt="clock" />
           <span>Digital Clock</span>
         </Link>
       </li>
       <li>
-        <Link to="/todo">
+        <Link to="/microapps/todo">
           <img src={ToDoImg} alt="todo" />
           <span>To Do</span>
         </Link>
