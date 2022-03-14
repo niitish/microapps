@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/microapps/static/css/main.28a7db78.css",
+    "main.js": "/microapps/static/js/main.515eb006.js",
+    "static/css/113.bdececbf.chunk.css": "/microapps/static/css/113.bdececbf.chunk.css",
+    "static/js/113.19dc8d24.chunk.js": "/microapps/static/js/113.19dc8d24.chunk.js",
+    "static/css/744.330d9067.chunk.css": "/microapps/static/css/744.330d9067.chunk.css",
+    "static/js/744.958ed566.chunk.js": "/microapps/static/js/744.958ed566.chunk.js",
+    "static/media/checked.png": "/microapps/static/media/checked.1512888c84e9df01470d.png",
+    "static/media/clock.png": "/microapps/static/media/clock.17bdc628628399bade7c.png",
+    "static/media/add.png": "/microapps/static/media/add.79748b84641690fa0572.png",
+    "static/media/bin.png": "/microapps/static/media/bin.a6fd29509719f079bfd7.png",
+    "static/media/todo.png": "/microapps/static/media/todo.63bf270ce06c27f992c1.png",
+    "index.html": "/microapps/index.html",
+    "main.28a7db78.css.map": "/microapps/static/css/main.28a7db78.css.map",
+    "main.515eb006.js.map": "/microapps/static/js/main.515eb006.js.map",
+    "113.bdececbf.chunk.css.map": "/microapps/static/css/113.bdececbf.chunk.css.map",
+    "113.19dc8d24.chunk.js.map": "/microapps/static/js/113.19dc8d24.chunk.js.map",
+    "744.330d9067.chunk.css.map": "/microapps/static/css/744.330d9067.chunk.css.map",
+    "744.958ed566.chunk.js.map": "/microapps/static/js/744.958ed566.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28a7db78.css",
+    "static/js/main.515eb006.js"
+  ]
+}
