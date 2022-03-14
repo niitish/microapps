@@ -18,7 +18,7 @@ export const TaskProvider = (props) => {
       title,
       done: false,
     };
-    setTasks((tasks) => [...tasks, item]);
+    setTasks((tasks) => [item, ...tasks]);
     localStorage.setItem("tasks", JSON.stringify([...tasks, item]));
   };
 
