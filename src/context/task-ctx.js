@@ -18,23 +18,26 @@ export const TaskProvider = (props) => {
       title,
       done: false,
     };
+    localStorage.setItem("tasks", JSON.stringify([item, ...tasks]));
     setTasks((tasks) => [item, ...tasks]);
-    localStorage.setItem("tasks", JSON.stringify([...tasks, item]));
   };
 
   const check = (id) => {
     const task = tasks.find((t) => t.id === id);
     task.done = !task.done;
-    deleteItem(id);
-    if (task.done) setTasks((tasks) => [...tasks, task]);
-    else setTasks((tasks) => [task, ...tasks]);
-    localStorage.setItem("tasks", JSON.stringify([task, ...tasks]));
+
+    let updatedTasks = tasks.filter((task) => task.id !== id);
+    if (task.done) updatedTasks = [...updatedTasks, task];
+    else updatedTasks = [task, ...updatedTasks];
+
+    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+    setTasks(updatedTasks);
   };
 
   const deleteItem = (id) => {
     const updatedTasks = tasks.filter((task) => task.id !== id);
-    setTasks(updatedTasks);
     localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+    setTasks(updatedTasks);
   };
 
   const ctx = {
