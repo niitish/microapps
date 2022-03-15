@@ -4,7 +4,7 @@
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: fit-content;
+  width: max-content;
   padding: 1rem 2rem;
   z-index: 15;
   overflow: hidden;
