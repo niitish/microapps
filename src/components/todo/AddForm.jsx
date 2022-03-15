@@ -10,8 +10,12 @@ const AddForm = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     const title = taskRef.current.value;
-    ctx.addTask(title);
 
+    if (title.trim() === "") {
+      return;
+    }
+
+    ctx.addTask(title);
     taskRef.current.value = "";
   };
 
