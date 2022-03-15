@@ -2,7 +2,7 @@
   background-color: gray;
   border-radius: 1rem;
   list-style-type: none;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .list p {
@@ -11,16 +11,32 @@
 }
 
 .list li {
-  display: grid;
-  grid-template-columns: 1fr 13fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 0.25rem;
-  padding: 1rem 0.3rem;
+  padding: 0.5rem;
   margin: 0.5rem 0;
   color: black;
   border-radius: 1rem;
   background-color: gainsboro;
 }
 
+.list li span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list li span:first-of-type {
+  border-left: 1px solid black;
+}
+
+.modal {
+  background-color: gainsboro;
+  color: black;
+}
+
+.modal button,
 .list button {
   display: flex;
   justify-content: center;
@@ -33,16 +49,19 @@
   transition: background 0.25s;
 }
 
+.modal button:hover,
 .list button:hover {
   background: white;
 }
 
+.modal button img,
 .list button img {
   height: 1.5rem;
   width: 1.5rem;
   object-fit: contain;
 }
 
+.modal h2,
 .list h2 {
   margin: 0;
   overflow-x: scroll;
@@ -50,6 +69,32 @@
   scrollbar-width: none;
 }
 
+.modal h2 {
+  text-align: center;
+}
+
 .list h2::-webkit-scrollbar {
   display: none;
+}
+
+.modal input {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+  transition: background 0.25s;
+}
+
+.modal input:focus {
+  background: gainsboro;
+}
+
+.modal div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
