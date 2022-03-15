@@ -3,9 +3,10 @@ import { v4 } from "uuid";
 
 const TaskContext = React.createContext({
   tasks: [],
-  addTask: () => {},
-  markComplete: () => {},
-  deleteItem: () => {},
+  addTask: (title) => {},
+  // markComplete: () => {},
+  deleteTask: (id) => {},
+  updateTask: (id, newTitle, flag) => {},
 });
 
 export const TaskProvider = (props) => {
@@ -22,9 +23,28 @@ export const TaskProvider = (props) => {
     setTasks((tasks) => [item, ...tasks]);
   };
 
-  const check = (id) => {
+  // const check = (id) => {
+  //   const task = tasks.find((t) => t.id === id);
+  //   task.done = !task.done;
+
+  //   let updatedTasks = tasks.filter((task) => task.id !== id);
+  //   if (task.done) updatedTasks = [...updatedTasks, task];
+  //   else updatedTasks = [task, ...updatedTasks];
+
+  //   localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+  //   setTasks(updatedTasks);
+  // };
+
+  const deleteTask = (id) => {
+    const updatedTasks = tasks.filter((task) => task.id !== id);
+    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+    setTasks(updatedTasks);
+  };
+
+  const updateTask = (id, newTitle, flag) => {
     const task = tasks.find((t) => t.id === id);
-    task.done = !task.done;
+    if (flag) task.done = !task.done;
+    else task.title = newTitle;
 
     let updatedTasks = tasks.filter((task) => task.id !== id);
     if (task.done) updatedTasks = [...updatedTasks, task];
@@ -34,17 +54,11 @@ export const TaskProvider = (props) => {
     setTasks(updatedTasks);
   };
 
-  const deleteItem = (id) => {
-    const updatedTasks = tasks.filter((task) => task.id !== id);
-    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
-    setTasks(updatedTasks);
-  };
-
   const ctx = {
     tasks: tasks,
     addTask,
-    check,
-    deleteItem,
+    deleteTask,
+    updateTask,
   };
 
   return (
