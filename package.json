@@ -1,7 +1,7 @@
 {
   "name": "microapps",
   "homepage": "https://niitish.github.io/microapps",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
