@@ -32,6 +32,7 @@
 }
 
 .modal {
+  width: 550px;
   background-color: gainsboro;
   color: black;
 }
@@ -97,4 +98,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 95%;
+  }
 }
