@@ -48,7 +48,12 @@ const TaskItem = ({ tasks }) => {
                     <label>
                       <h2> Enter new title</h2>
                     </label>
-                    <input autoFocus ref={newTitleRef} type="text" />
+                    <input
+                      autoFocus
+                      defaultValue={title}
+                      ref={newTitleRef}
+                      type="text"
+                    />
                     <div>
                       <button type="reset" onClick={visibilityHandler}>
                         <img src={Cancel} alt="cancel" />
