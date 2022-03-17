@@ -1,0 +1,11 @@
+.list {
+  background-color: gray;
+  border-radius: 1rem;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.list p {
+  font-size: 1.25rem;
+  text-align: center;
+}

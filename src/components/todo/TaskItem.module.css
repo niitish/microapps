@@ -1,16 +1,4 @@
-.list {
-  background-color: gray;
-  border-radius: 1rem;
-  list-style-type: none;
-  padding: 0.5rem;
-}
-
-.list p {
-  font-size: 1.25rem;
-  text-align: center;
-}
-
-.list li {
+.item {
   display: flex;
   justify-content: space-between;
   gap: 0.25rem;
@@ -21,13 +9,13 @@
   background-color: gainsboro;
 }
 
-.list li span {
+.item span {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.list li span:first-of-type {
+.item span:first-of-type {
   border-left: 1px solid black;
 }
 
@@ -38,7 +26,7 @@
 }
 
 .modal button,
-.list button {
+.item button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,19 +39,19 @@
 }
 
 .modal button:hover,
-.list button:hover {
+.item button:hover {
   background: white;
 }
 
 .modal button img,
-.list button img {
+.item button img {
   height: 1.5rem;
   width: 1.5rem;
   object-fit: contain;
 }
 
 .modal h2,
-.list h2 {
+.item h2 {
   margin: 0;
   overflow-x: scroll;
   -ms-overflow-style: none;
