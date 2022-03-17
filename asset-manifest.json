@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/microapps/static/css/main.28a7db78.css",
-    "main.js": "/microapps/static/js/main.bf548d25.js",
+    "main.js": "/microapps/static/js/main.06337344.js",
     "static/css/113.bdececbf.chunk.css": "/microapps/static/css/113.bdececbf.chunk.css",
     "static/js/113.19dc8d24.chunk.js": "/microapps/static/js/113.19dc8d24.chunk.js",
-    "static/css/974.bd7c063a.chunk.css": "/microapps/static/css/974.bd7c063a.chunk.css",
-    "static/js/974.f64d1716.chunk.js": "/microapps/static/js/974.f64d1716.chunk.js",
+    "static/css/150.14b133fa.chunk.css": "/microapps/static/css/150.14b133fa.chunk.css",
+    "static/js/150.dc8ccd73.chunk.js": "/microapps/static/js/150.dc8ccd73.chunk.js",
     "static/media/checked.png": "/microapps/static/media/checked.1512888c84e9df01470d.png",
     "static/media/cancel.png": "/microapps/static/media/cancel.6665594816ab2586f5cb.png",
     "static/media/update.png": "/microapps/static/media/update.85362a3368e7de25d12f.png",
@@ -17,14 +17,14 @@
     "static/media/edit.png": "/microapps/static/media/edit.632970cd32a7fc91648c.png",
     "index.html": "/microapps/index.html",
     "main.28a7db78.css.map": "/microapps/static/css/main.28a7db78.css.map",
-    "main.bf548d25.js.map": "/microapps/static/js/main.bf548d25.js.map",
+    "main.06337344.js.map": "/microapps/static/js/main.06337344.js.map",
     "113.bdececbf.chunk.css.map": "/microapps/static/css/113.bdececbf.chunk.css.map",
     "113.19dc8d24.chunk.js.map": "/microapps/static/js/113.19dc8d24.chunk.js.map",
-    "974.bd7c063a.chunk.css.map": "/microapps/static/css/974.bd7c063a.chunk.css.map",
-    "974.f64d1716.chunk.js.map": "/microapps/static/js/974.f64d1716.chunk.js.map"
+    "150.14b133fa.chunk.css.map": "/microapps/static/css/150.14b133fa.chunk.css.map",
+    "150.dc8ccd73.chunk.js.map": "/microapps/static/js/150.dc8ccd73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28a7db78.css",
-    "static/js/main.bf548d25.js"
+    "static/js/main.06337344.js"
   ]
 }
