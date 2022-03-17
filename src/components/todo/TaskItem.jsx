@@ -50,7 +50,7 @@ const TaskItem = ({ tasks }) => {
                     </label>
                     <input
                       autoFocus
-                      defaultValue={title}
+                      // defaultValue={title}
                       ref={newTitleRef}
                       type="text"
                     />
